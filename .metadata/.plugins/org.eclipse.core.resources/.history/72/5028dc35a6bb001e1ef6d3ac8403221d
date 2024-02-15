@@ -1,0 +1,6 @@
+package com.ms.feignclients;
+
+@Fº
+public interface CarroFeignClient {
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="auto-service"/>
+<aop-project name="usuario-service"/>
+<aop-project name="moto-service"/>
+</aop-reference-model>

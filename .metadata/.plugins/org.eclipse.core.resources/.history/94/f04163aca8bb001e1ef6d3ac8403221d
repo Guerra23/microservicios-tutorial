@@ -1,0 +1,15 @@
+package com.ms.feignclients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ms.models.Carro;
+
+@FeignClient(name = "auto-service", url = "http://localhost:8002")
+@RequestMapping("/carro")
+public interface CarroFeignClient {
+	
+	public Carro save(@RequestBody Carro carro);
+
+}
