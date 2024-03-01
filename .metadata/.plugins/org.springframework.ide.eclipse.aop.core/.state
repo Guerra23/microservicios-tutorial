@@ -2,5 +2,6 @@
 <aop-reference-model>
 <aop-project name="auto-service"/>
 <aop-project name="usuario-service"/>
+<aop-project name="config-service"/>
 <aop-project name="moto-service"/>
 </aop-reference-model>
