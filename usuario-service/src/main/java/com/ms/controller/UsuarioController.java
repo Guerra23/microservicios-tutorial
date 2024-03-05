@@ -57,7 +57,7 @@ public class UsuarioController {
 			return ResponseEntity.notFound().build();
 		}
 		List<Carro> carros = usuarioService.getCarros(id);
-		return ResponseEntity.ok(carros); 
+		return ResponseEntity.ok(carros);
 	}
 	
 	@GetMapping("/motos/{usuarioId}")
